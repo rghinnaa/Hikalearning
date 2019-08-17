@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hikalearning"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".HiraganaActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".KatakanaActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".HiralearnActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".KatalearnActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".HiraquizActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".KataquizActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Hquiz1splashActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Hquiz2splashActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Hquiz3splashActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Kquiz1splashActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Kquiz2splashActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Kquiz3splashActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Hiraquiz1Activity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Hiraquiz2Activity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Hiraquiz3Activity"
+            android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".Kataquiz1Activity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Kataquiz2Activity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Kataquiz3Activity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".ScoreActivity"
+            android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>

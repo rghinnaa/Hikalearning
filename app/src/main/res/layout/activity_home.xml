@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="141dp"
+        android:layout_height="164dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/buttonhiragana"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/button1"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn1" />
+
+    <Button
+        android:id="@+id/buttonkatakana"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button2"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonhiragana"
+        android:text="@string/btn2" />
+
+    <Button
+        android:id="@+id/buttonabout"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button3"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonkatakana"
+        android:text="@string/btn3" />
+
+</RelativeLayout>

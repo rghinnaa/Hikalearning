@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hika Learning</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn1">HIRAGANA</string>
+    <string name="btn2">KATAKANA</string>
+    <string name="btn3">ABOUT</string>
+    <string name="btn4">LEARN</string>
+    <string name="btn5">QUIZ</string>
+    <string name="about1">Rizka Ghinna Auliya</string>
+    <string name="about2">Cimahi, 29 Juni 2001</string>
+    <string name="about3">- Follow Your Heart -</string>
+    <string name="txt1">Tab 1</string>
+    <string name="txt2">Tab2</string>
+    <string name="image">nyoba</string>
+    <string name="btnq1">Quiz 1</string>
+    <string name="btnq2">Quiz 2</string>
+    <string name="btnq3">Quiz 3</string>
+
+</resources>

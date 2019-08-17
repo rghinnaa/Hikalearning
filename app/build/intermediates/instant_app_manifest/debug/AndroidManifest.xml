@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hikalearning"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hikalearning.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hikalearning.HomeActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.HiraganaActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.KatakanaActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.AboutActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.HiralearnActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.KatalearnActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.HiraquizActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.KataquizActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Hquiz1splashActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Hquiz2splashActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Hquiz3splashActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Kquiz1splashActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Kquiz2splashActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Kquiz3splashActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Hiraquiz1Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Hiraquiz2Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Hiraquiz3Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Kataquiz1Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Kataquiz2Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.Kataquiz3Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.hikalearning.ScoreActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
